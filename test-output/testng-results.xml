@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-27T10:20:56 IST" name="Default suite" finished-at="2025-03-27T10:21:05 IST" duration-ms="9678">
+  <suite started-at="2025-03-27T17:32:38 IST" name="Default suite" finished-at="2025-03-27T17:32:47 IST" duration-ms="8369">
     <groups>
     </groups>
-    <test started-at="2025-03-27T10:20:56 IST" name="Default test" finished-at="2025-03-27T10:21:05 IST" duration-ms="9678">
-      <class name="testScripts.GooglePageTest">
-        <test-method signature="SeleniumSearch()[pri:0, instance:testScripts.GooglePageTest@e350b40]" started-at="2025-03-27T10:20:56 IST" name="SeleniumSearch" finished-at="2025-03-27T10:21:05 IST" duration-ms="9599" status="PASS">
+    <test started-at="2025-03-27T17:32:38 IST" name="Default test" finished-at="2025-03-27T17:32:47 IST" duration-ms="8369">
+      <class name="testScripts.MouseActions">
+        <test-method signature="mouseAction()[pri:0, instance:testScripts.MouseActions@2794eab6]" started-at="2025-03-27T17:32:38 IST" name="mouseAction" finished-at="2025-03-27T17:32:47 IST" duration-ms="8287" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SeleniumSearch -->
-      </class> <!-- testScripts.GooglePageTest -->
+        </test-method> <!-- mouseAction -->
+      </class> <!-- testScripts.MouseActions -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
