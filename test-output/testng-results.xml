@@ -1,40 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-03T12:28:04 IST" name="SampleSuite" finished-at="2025-04-03T12:28:15 IST" duration-ms="11505">
+  <suite started-at="2025-04-03T17:44:54 IST" name="Default suite" finished-at="2025-04-03T17:45:10 IST" duration-ms="16327">
     <groups>
     </groups>
-    <test started-at="2025-04-03T12:28:04 IST" name="SampleTest" finished-at="2025-04-03T12:28:15 IST" duration-ms="11505">
-      <class name="testScripts.BookSearchTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testScripts.BookSearchTest@19e4653c]" started-at="2025-04-03T12:28:04 IST" name="setup" finished-at="2025-04-03T12:28:13 IST" duration-ms="9883" status="PASS">
+    <test started-at="2025-04-03T17:44:54 IST" name="Default test" finished-at="2025-04-03T17:45:10 IST" duration-ms="16327">
+      <class name="testScripts.LoginTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testScripts.LoginTest@7bba5817]" started-at="2025-04-03T17:44:54 IST" name="Setup" finished-at="2025-04-03T17:44:56 IST" duration-ms="2434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="LoginApp(java.lang.String,java.lang.String)[pri:0, instance:testScripts.LoginTest@7bba5817]" started-at="2025-04-03T17:44:56 IST" name="LoginApp" data-provider="getData" finished-at="2025-04-03T17:45:03 IST" duration-ms="6545" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="CrimeNovelsearch()[pri:0, instance:testScripts.BookSearchTest@19e4653c]" started-at="2025-04-03T12:28:13 IST" name="CrimeNovelsearch" finished-at="2025-04-03T12:28:14 IST" duration-ms="109" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CrimeNovelsearch -->
-        <test-method signature="CookingBook()[pri:1, instance:testScripts.BookSearchTest@19e4653c]" started-at="2025-04-03T12:28:14 IST" name="CookingBook" finished-at="2025-04-03T12:28:14 IST" duration-ms="91" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CookingBook -->
-        <test-method signature="HistoryBook()[pri:0, instance:testScripts.BookSearchTest@19e4653c]" started-at="2025-04-03T12:28:14 IST" name="HistoryBook" finished-at="2025-04-03T12:28:14 IST" depends-on-methods="testScripts.BookSearchTest.CookingBook" duration-ms="88" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HistoryBook -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.BookSearchTest@19e4653c]" started-at="2025-04-03T12:28:14 IST" name="tearDown" finished-at="2025-04-03T12:28:15 IST" duration-ms="1275" status="PASS">
+        </test-method> <!-- LoginApp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.LoginTest@7bba5817]" started-at="2025-04-03T17:45:03 IST" name="tearDown" finished-at="2025-04-03T17:45:03 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testScripts.BookSearchTest -->
-    </test> <!-- SampleTest -->
-  </suite> <!-- SampleSuite -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testScripts.LoginTest@7bba5817]" started-at="2025-04-03T17:45:03 IST" name="Setup" finished-at="2025-04-03T17:45:04 IST" duration-ms="1497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="LoginApp(java.lang.String,java.lang.String)[pri:0, instance:testScripts.LoginTest@7bba5817]" started-at="2025-04-03T17:45:04 IST" name="LoginApp" data-provider="getData" finished-at="2025-04-03T17:45:10 IST" duration-ms="5734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.LoginTest@7bba5817]" started-at="2025-04-03T17:45:10 IST" name="tearDown" finished-at="2025-04-03T17:45:10 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
